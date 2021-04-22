@@ -1,8 +1,111 @@
-tr,td {
-            border: 3px solid black;
-            padding: 10px;
-        }
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Nanum+Pen+Script&family=Noto+Sans+KR&display=swap');
 
+.font-NG  {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.font-PS  {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.font-NS  {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.progress-bar.progress-bar-striped.progress-bar-animated {
+  border-radius: 30px
+}
+.develop_time {
+  font-size:12px;
+}
+
+.font-size-05 {
+  font-size:0.5rem;
+}
+.font-size-06 {
+font-size:0.6rem;
+}
+
+td.develop p.text-secondary {
+  text-align: center;
+}
+
+td.develop {
+  font-size:0.5rem;
+}
+
+td i {
+   text-align: center;
+}
+
+tbody tr td:first-child {
+  font-weight: bolder;
+}
+
+tbody tr td:nth-child(2) p:nth-child(1) {
+  font-weight: bolder;
+}
+
+tbody tr:hover {
+  background-color: rgba(214, 255, 175, 0.348);
+}
+
+tbody tr td:nth-child(1) {
+  text-align: center;
+}
+table td {
+padding: 0.5rem 0.3rem;
+}
+
+table th {
+padding-left: 0.3rem;
+padding-right: 0.3rem;
+}
+
+.btn {
+  cursor:unset;
+}
+tbody img {
+  width:1rem;
+  margin-right:0.5rem;
+}
+div span.btn {
+  font-size:0.7rem;
+  margin: 0.1rem 0 1rem 0;
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-weight:bold
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 기본 설정들 */
 
 
 /* GLOBAL STYLES

@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML기본태그</title>
+
+</head>
+<body>
+3일차 수업
+
+-CSS 적용방법
+1) HTML 태그에 style 속성에 지정
+<hr style="background-color: red; height: 10px;">
+<hr>
+<hr>
+
+
+
+
+3) 별도의 .css 확장자를 가진 파일에 내용을 저장한 후
+    html에서 호출해서 사용
+
+
+<link rel="stylesheet" href="my.css">
+
+- href 속성에 파일이름을 명시한 경우, 해당 파일은<br>
+  &lt;link&gt; 태그가 명시된 HTML 파일과 동일한 폴더에<br>
+  .css파일이 있어야 합니다.<br>
+
+
+2) style 태그 이용: 일반적으로 head 요소내에 명시합니다
+                         body 요소에 명시할 수도 있습니다.
+   HTML 문서하나 전체에 효과있습니다.
+<style>
+   hr { background-color: blue; height: 10px;  }   
+   #myhr {height: 30px;background-color: green}
+   #myhr2 {background-color: grey; height: 100px;}
+   .myhr2 {background-color: lightblue; height: 100px;}
+</style>
+CSS 주석처리: style 태그 내에서 또는 .css파일에서사용
+ /*와 */ 사이에 주석내용을 명시.
+
+<hr style="background-color: yellow; height: 10px;"> 
+<hr id="myhr">
+<hr>
+<hr style="background-color: grey; height: 70px;">
+<hr style="background-color: grey; height: 70px;">
+<hr id="myhr2"> 권장않함
+<hr id="myhr2"> 권장않함
+<hr class="myhr2">
+<hr class="myhr2">
+<hr>
+<hr>
+
+[css적용 순서]
+1. style 속성이용 태그에 명시<br>
+2. style 태그를 명시<br>
+3. css 파일을 생성하고 link 태그로 사용설정 <br>
+
+
+
+
+만약 서로다른 스타일이 동일한 태그에 1,2,3모두 명시되면 
+어떤것이 적용될까요?
+
+무조적 적용되는 것은 태그에 직접 설정된 1번이 처리
+==> 1번이 없고, 2번, 3번으로 구성되면 
+       ==> 나중에 명시된 것이 적용됨 
+
+
+수업중에 연습하면서 배울 때는 이중에 1번을 주로 사용합니다.
+
+
+CSS 선택자
+스타일을 적용할 HTML 요소를 가리키는 데 사용하는 선택자는 다음과 같습니다.
+
+
+- HTML 요소 선택자
+- 아이디(id) 선택자
+- 클래스(class) 선택자
+
+HTML의 태그(요소)에 id는 그 문서에서 고유하게 지정하는것을 적극 권장
+==> 서로 다른 HTML태그(요소)에 동일한 id를 주지 않는 것을 적극 권장
+       ==> 만약 서로 다른 HTML태그(요소)에 동일한 id를 설정해야 한다
+             ==> 이 때, 클래스 선택자
+
+
+<hr>
+
+HTML table 태그 사용
+<table style="border-width: 1px; border-style: solid;">
+    <tr>
+        <td>이름<td>
+        <td>별명<td>
+        <td>나이<td>
+        <td>성별<td>
+        <td>거주시도<td>
+    </tr>
+    <tr>
+        <td>신상현<td>
+        <td>강사<td>
+        <td>52<td>
+        <td>남<td>
+        <td>경기도<td>
+    </tr>
+    <tr>
+        <td>홍길동<td>
+        <td>도둑<td>
+        <td>300<td>
+        <td>남<td>
+        <td>서울<td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+2일차 수업
+<h1>문서제목</h1>
+<h6>문서제목</h6>
+- HTML 학습 참조사이트 주소: http://tcpschool.com 페이지의 상단 코딩기초, HTML <br>
+- 부등호(크다/작다)/작은따음표/빈칸/쌍따옴표는 HTML에서 사용하는 기호이므로<br>
+  이른 문서에 표시하려면 다음의 방법을 사용<br>
+          &gt;   &lt;   &apos;  &nbsp; &quot;   <br>
+
+-  HTML 내용 줄바꿈 : &lt;br&gt;태그 이용<br>
+</body>
+</html>

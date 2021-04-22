@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8"/>
+     <title>HTML5-TABLE</title>
+     <style>
+     * {margin: 0; padding: 0}
+      table, td, th {border-color: red; border-width: 1px; border-style: solid; /*color: red;*/ }
+      th {height: 40px; width: 50px; background-color: lightgrey}
+      .myth {border-color:blue;}
+      table {width: 80%; margin: auto;}
+      td {height: 35px; 
+           text-align: center; margin: 0;
+           padding-top: inherit;
+           padding-bottom: inherit;
+      }
+      #tblCaption {text-align: left;}
+      /*div, span,p,h1,em,b {border: solid 1px black;}*/
+     img {width: 100px; height: 50px}
+     </style>
+</head>
+<body>
+<!--  HTML 주석
+<table style="border-width: 1px; border-style: solid;">  
+-->
+<div>
+<img src="C:\Users\goott2\Pictures\Screen\img100.jpg" 
+        alt="표시할 그림이 사라졌어요!!!">
+<img src="C:\Users\goott2\Pictures\Screen\img101.png" 
+        alt="표시할 그림이 사라졌어요!!!">
+</div>
+<div>
+<img src="C:\Users\goott2\Pictures\Screen\img102.jpg" 
+        style="width: 200px; height: 100px;"
+        alt="표시할 그림이 사라졌어요!!!">
+<img src="C:\Users\goott2\Pictures\Screen\img103.png" 
+        alt="표시할 그림이 사라졌어요!!!">
+</div>
+<h1>테스트테이블</h1>
+<span>span1 공간입니다.</span><span>span2 공간입니다.</span>
+<div>div 공간1입니다</div><div>div 공간2입니다</div>
+
+<span><p>단락입니다</p></span>
+<div><span>스판1공간</span><span>스판2</span></div>
+
+인라인 태그내에 블록테그를 사용할 경우, 인라인태그가 효과가 없습니다.
+
+블록태그내에 인라인태그를 사용하는 것이 원칙입니다.
+<p>
+테이블 연습을 하고 있습니다<br>
+캡션도 달고 등등
+</p>
+<table>
+    <caption id="tblCaption" >고객정보캡션1</caption>
+    <tr>
+        <th class="myth" style="width: 50px">Name</th>
+        <th class="myth">별명</th>
+        <th class="myth">나이</th>
+        <th class="myth">성별</th>
+        <th class="myth">거주시도</th>
+    </tr>
+    <tr>
+        <td>신상현</td>
+        <td>강사</td>
+        <td>52</td>
+        <td>남</td>
+        <td>경기도</td>
+    </tr>
+    <tr>
+        <td>홍길동</td>
+        <td>도둑</td>
+        <td>300</td>
+        <td>남</td>
+        <td>서울</td>
+    </tr>
+    <tr>
+        <td colspan="2">홍길동</td>
+        <td>300</td>
+        <td>남</td>
+        <td>서울</td>
+    </tr>
+    <tr>
+        <td colspan="5">표시할 정보가 없습니다</td>
+     
+    </tr>
+    <tr>
+        <td rowspan="2"><span style="width:50px;height:50px;"><img src="C:\Users\goott2\Pictures\Screen\img104.jpg"
+                                         alt="표시할 그림이 사라졌어요!!!"
+                                         style="width:50px;height:50px;">
+                                  </span>
+       </td>
+        <td>강사</td>
+        <td rowspan="2">52</td>
+        <td colspan="2" rowspan="2" >그림</td>
+    </tr>
+    <tr>
+        <td>도둑</td>
+    </tr>
+</table>
+<p style="text-align: center">표: 고객정보</p>
+
+오늘 여러운것을 배웁니다. <b><em>테스트 강조</em></b>를 할겁니다
+그 때 em 태그를 사용합니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -5,64 +5,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>One Page Portfolio for Eddy</title>
+    <title>Resume - Eddy</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!--  CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link href="css/style_portfolio.css">
-    <!-- Optional JavaScript -->
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&family=Nanum+Pen+Script&family=Noto+Sans+KR&display=swap" rel="stylesheet"> -->
+    <!-- Carousel css -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <!-- Custom -->
+    <link href="css/style_portfolio.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <style>
-        tr,td {
-            border: 3px solid black;
-            padding: 10px;
-        }
-    </style>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Who is Eddy?</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Summary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#project">Project</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#stack">Stack(Not Ready)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Education(Not Ready)</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
 
-
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-    </head>
-
-    <body>
-
-        <header>
-            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Who is Eddy?</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Project</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Project</a>
+                        </li> -->
+                    </ul>
+                    <!-- <form class="d-flex">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div> -->
+                        </form> -->
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
 
-        <main style="margin-top:10vh">
+    <main style="margin-top:10vh">
 
-            <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- carousel -->
+        <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -115,69 +125,312 @@
                     <span class="visually-hidden">Next</span>
                 </button>
             </div> -->
+        <!-- carousel end -->
+
+        <!-- Summary 시작 -->
+        <div class="container">
+            <div class="row text-center my-5">
+                <div>
+                    <img class="rounded-circle" src="img/eddy.jpg" alt="">
+                </div>
+                <h1 class="text-dark display-4 fw-bold my-5 font-NG">Who is 태형?</h1>
+                <div class="col-12 mb-5">
+                    <h4> 안녕하세요. <span class="text-primary fw-bold">Full-stack</span> 개발자를 꿈꾸는 김태형(Eddy)입니다.</h4>
+                    <h4>상상하는게 현실이 되는 개발에 관심을 가져 <span class="text-primary fw-bold">웹 개발</span>에 많은 관심을 가지고 있습니다.</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Summary 끝 -->
+
+        <!-- Project -->
+        <div class="container" id="project">
+            <div class="col-12">
+                <h2 class="fw-bold display-4 text-warning">Project</h2>
+                <p class="font-NS h5 my-3">프로젝트는 시작보다 완성이 더 중요합니다. 하기의 프로젝트를 확인해 보세요.</p>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="col-12 table-hover">
+                            <thead>
+                                <tr class="text-center border-0">
+                                    <th>프로젝트</th>
+                                    <th>소개</th>
+                                    <th>개발 참여도</th>
+                                    <th>웹 페이지</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>홈페이지 리뉴얼</td>
+                                    <td>
+                                        <p class="fw-bolder">
+                                            <img class="img-fluid" src="assets/img/nafter_logo.png" alt="">[NAFTER] 오래된 회사 홍보 홈페이지 리뉴얼
+                                        </p>
+                                        <p>#Nafter #Web Page #ReBuild</p>
+                                        <div>
+                                            <span class="btn btn-success">Done</span>
+                                            <span class="btn btn-primary">HTML and CSS3</span>
+                                            <span class="btn btn-primary">Bootstrap</span>
+                                            <span class="btn btn-outline-primary">Javascript ES6</span>
+                                            <span class="btn btn-outline-primary">Jquery</span>
+                                            <span class="btn btn-outline-primary">Node.JS</span>
+                                            <span class="btn btn-outline-primary">Firebase</span>
+                                            <span class="btn btn-secondary">Java</span>
+                                            <span class="btn btn-secondary">AWS</span>
+                                            <span class="btn btn-secondary">React</span>
+                                            <span class="btn btn-secondary">Vue</span>
+                                            <span class="btn btn-secondary">MongoDB</span>
+                                        </div>
+                                    </td>
+                                    <td class="develop text-center">
+                                        <p class="">(20/10~20/11)</p>
+                                        <p class="progress-bar progress-bar-striped progress-bar-animated w-100">
+                                            <span>100%</span>
+                                        </p>
+                                        <p class="text-secondary">퍼블리싱</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="https://nafter-2.web.app/index.html" target="_blank">
+                                            <i class="fab fa-2x fa-internet-explorer"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>웹/앱 제작</td>
+                                    <td>
+                                        <p class="fw-bolder">
+                                            <img class="img-fluid" src="assets/img/nafter_logo.png" alt="">[NAFTER] Blooth로 수집 한 데이터 확인용 Android 앱 제작
+                                        </p>
+                                        <p>#Nafter #Web App #Build</p>
+                                        <div>
+                                            <span class="btn btn-success">Done</span>
+                                            <span class="btn btn-primary">HTML and CSS3</span>
+                                            <span class="btn btn-primary">Bootstrap</span>
+                                            <span class="btn btn-outline-primary">Javascript ES6</span>
+                                            <span class="btn btn-outline-primary">Jquery</span>
+                                            <span class="btn btn-outline-primary">Node.JS</span>
+                                            <span class="btn btn-outline-primary">Firebase</span>
+                                            <span class="btn btn-secondary">Java</span>
+                                            <span class="btn btn-secondary">AWS</span>
+                                            <span class="btn btn-secondary">React</span>
+                                            <span class="btn btn-secondary">Vue</span>
+                                            <span class="btn btn-secondary">MongoDB</span>
+                                        </div>
+                                    </td>
+                                    <td class="develop text-center">
+                                        <p class="">(20/11~20/12)</p>
+                                        <p class="progress-bar progress-bar-striped progress-bar-animated w-100">
+                                            <span>100%</span>
+                                        </p>
+                                        <p class="text-secondary">퍼블리싱</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="https://nafter-monitor.web.app/" target="_blank">
+                                            <i class="fab fa-2x fa-internet-explorer"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>쇼핑몰 제작</td>
+                                    <td>
+                                        <p class="fw-bolder">
+                                            <img class="img-fluid " src="assets/img/noconcept_favicon.png" alt="">[Noconcept] 클라우드 펀딩 쇼핑몰
+                                        </p>
+                                        <p>#Noconcept #Web Page #Build #Cloud Funding</p>
+                                        <div>
+                                            <span class="btn btn-success">Done</span>
+                                            <span class="btn btn-primary">HTML and CSS3</span>
+                                            <span class="btn btn-primary">Bootstrap</span>
+                                            <span class="btn btn-outline-primary">Javascript ES6</span>
+                                            <span class="btn btn-outline-primary">Jquery</span>
+                                            <span class="btn btn-outline-primary">Node.JS</span>
+                                            <span class="btn btn-outline-primary">Firebase</span>
+                                            <span class="btn btn-secondary">Java</span>
+                                            <span class="btn btn-secondary">AWS</span>
+                                            <span class="btn btn-secondary">React</span>
+                                            <span class="btn btn-secondary">Vue</span>
+                                            <span class="btn btn-secondary">MongoDB</span>
+                                        </div>
+                                    </td>
+                                    <td class="develop text-center">
+                                        <p class="">(20/11~20/12)</p>
+                                        <p class="progress-bar progress-bar-striped progress-bar-animated w-100">
+                                            <span>100%</span>
+                                        </p>
+                                        <p class="text-secondary">퍼블리싱</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="https://clayful-test.web.app/" target="_blank">
+                                            <i class="fab fa-2x fa-internet-explorer"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>홈페이지 리뉴얼</td>
+                                    <td>
+                                        <p class="fw-bolder">
+                                            <img class="img-fluid " src="assets/img/shinhan_favicon.png" alt="">[ShinhanMedi] 회사 홍보 홈페이지 리뉴얼
+                                        </p>
+                                        <p>#ShinhanMedi #Web Page #Rebuild </p>
+                                        <div>
+                                            <span class="btn btn-success">Done</span>
+                                            <span class="btn btn-primary">HTML and CSS3</span>
+                                            <span class="btn btn-primary">Bootstrap</span>
+                                            <span class="btn btn-primary">Javascript ES6</span>
+                                            <span class="btn btn-primary">Jquery</span>
+                                            <span class="btn btn-primary">Node.JS</span>
+                                            <span class="btn btn-primary">Firebase</span>
+                                            <span class="btn btn-secondary">Java</span>
+                                            <span class="btn btn-secondary">AWS</span>
+                                            <span class="btn btn-secondary">React</span>
+                                            <span class="btn btn-secondary">Vue</span>
+                                            <span class="btn btn-secondary">MongoDB</span>
+                                        </div>
+                                    </td>
+                                    <td class="develop text-center">
+                                        <p class="">(20/12~21/1)</p>
+                                        <p class="progress-bar progress-bar-striped progress-bar-animated w-100">
+                                            <span>100%</span>
+                                        </p>
+                                        <p class="text-secondary">프론트90 & 백50</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="https://shinhan-medical.web.app/" target="_blank">
+                                            <i class="fab fa-2x fa-internet-explorer"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>홈페이지 리뉴얼</td>
+                                    <td>
+                                        <p class="fw-bolder">
+                                            <img class="img-fluid" src="assets/img/bmg_logo_green.png" alt="">[Beyond] 회사 홍보 홈페이지 리뉴얼
+                                        </p>
+                                        <p>#Beyond #Web Page #Rebuild </p>
+                                        <div>
+                                            <span class="btn btn-success">Done</span>
+                                            <span class="btn btn-primary">HTML and CSS3</span>
+                                            <span class="btn btn-primary">Bootstrap</span>
+                                            <span class="btn btn-primary">Javascript ES6</span>
+                                            <span class="btn btn-primary">Jquery</span>
+                                            <span class="btn btn-primary">Node.JS</span>
+                                            <span class="btn btn-primary">Firebase</span>
+                                            <span class="btn btn-secondary">Java</span>
+                                            <span class="btn btn-secondary">AWS</span>
+                                            <span class="btn btn-secondary">React</span>
+                                            <span class="btn btn-secondary">Vue</span>
+                                            <span class="btn btn-secondary">MongoDB</span>
+                                        </div>
+                                    </td>
+                                    <td class="develop text-center">
+                                        <p class="">(21/2~21/3)</p>
+                                        <p class="progress-bar progress-bar-striped progress-bar-animated w-100">
+                                            <span>100%</span>
+                                        </p>
+                                        <p class="text-secondary">프론트90 & 백30</p>
+                                    </td>
+                                    <td class="text-center">
+                                        <a href="https://beyondmarketing.co.kr//" target="_blank">
+                                            <i class="fab fa-2x fa-internet-explorer"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="text-center font-NS border-top pt-3">프로젝트들은 완료된 순서대로 정렬되어 있습니다</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Modal들 이후 추가 예정 -->
+        <!-- Project 끝-->
+
+        <!-- Stacks -->
+        <!-- Stacks 끝 -->
+        <!-- Education -->
+        <!-- Education 끝 -->
 
 
-            <!-- Marketing messaging and featurettes
-      ================================================== -->
-            <!-- Wrap the rest of the page in another container to center all the content. -->
-
-            <div class="container marketing">
-                <div class="row text-center my-5">
+        <!-- experience -->
+        <div class="container my-5" id="experience">
+            <div class="col-12">
+                <h2 class="fw-bold display-4 text-danger">Experience</h2>
+                <p class="font-NS h5 my-3">다양한 경험.</p>
+            </div>
+            <div class="row text-center my-5">
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle w-50 h-50" src="img/1_010head_sales.webp" alt="salesperson">
                     <div>
-                        <img class="rounded-circle" src="img/eddy.jpg" alt="">
+                        <h2 class="mt-3">Top salesman</h2>
                     </div>
-                    <h1 class="text-dark">Who is 태형?</h1>
-                    <div class="col-12 mb-5">
-                        <h3>
-                            태형 (Eddy)은
-                        </h3>
-                    </div>
+                    <!-- <p><a class="btn btn-outline-dark border-3 my-3" href="#">자세히 살펴보기 &raquo;</a></p> -->
                 </div>
-
-                <!-- Three columns of text below the carousel -->
-                <div class="row text-center">
-                    <div class="col-lg-4">
-                        <img class="bd-placeholder-img rounded-circle w-50 h-50" src="img/1_010head_sales.webp" alt="salesperson">
-                        <h2 class="mt-3">International Sales</h2>
-                        <p><a class="btn btn-outline-dark border-3 my-3" href="#">자세히 살펴보기 &raquo;</a></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <img class="bd-placeholder-img rounded-circle w-50 h-50" src="img/1_011head_marketer.webp" alt="markter">
-                        <h2 class="mt-3">Marketing</h2>
-                        <p><a class="btn btn-outline-dark border-3 my-3" href="#">자세히 살펴보기 &raquo;</a></p>
-                    </div>
-                    <div class="col-lg-4">
-                        <img class="bd-placeholder-img rounded-circle w-50 h-50" src="img/1_012head_programmer.webp" alt="programmer">
-                        <h2 class="mt-3">Programer</h2>
-                        <p><a class="btn btn-outline-dark border-3 my-3" href="#">자세히 살펴보기 &raquo;</a></p>
-                    </div>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle w-50 h-50" src="img/1_011head_marketer.webp" alt="markter">
+                    <h2 class="mt-3">Professional Marketer</h2>
+                    <!-- <p><a class="btn btn-outline-dark border-3 my-3" href="#">자세히 살펴보기 &raquo;</a></p> -->
                 </div>
-
-                <div class="col-12 row text-center mb-5">
-                    <table class="border-dark border">
-                        <!-- <tr>
-                            <th>Eddy란 인물은?</th>
-                        </tr> -->
-                        <tr>
-                            <td  class="text-center fw-bolder h2" colspan="4">Eddy란 인물은?</td>
-                        </tr>
-                        <tr>
-                            <td>이름</td>
-                            <td>김태형</td>
-                            <td>연락처</td>
-                            <td>010-6243-</td>
-                        </tr>
-                        <tr>
-                            <td>주소</td>
-                            <td>서울시 관악구 신림동 거주</td>
-                            <td>email</td>
-                            <td>kthhyung@gmail.com</td>
-
-                        </tr>
-                    </table>
+                <div class="col-lg-4">
+                    <img class="bd-placeholder-img rounded-circle w-50 h-50" src="img/1_012head_programmer.webp" alt="programmer">
+                    <h2 class="mt-3">Professional Programer</h2>
+                    <!-- <p><a class="btn btn-outline-dark border-3 my-3" href="#">자세히 살펴보기 &raquo;</a></p> -->
                 </div>
-                <!-- START THE FEATURETTES -->
-                <!-- <div>
+            </div>
+        </div>
+        <!-- experience 끝-->
+
+        <!-- Contact -->
+        <div class="container" id="contact">
+            <div class="col-12">
+                <h2 class="fw-bold display-4 text-dark">Contact</h2>
+                <p class="font-NS h5 my-3">여기까지 읽어 주셔서 고맙습니다.<br> 연락을 원하시면 하단의 연락처로 연락 부탁 드립니다.</p>
+            </div>
+            <div class="row justify-content-center mt-5">
+                <div class="card border-3 border-dark px-0 col-6" style="border-radius: 10px;">
+                    <div class="card-header bg-dark text-white">
+                        <h2>EddY's Contact</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="col-12">
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr>
+                                    <td>이름:</td>
+                                    <td>김태형</td>
+                                </tr>
+                                <tr>
+                                    <td>연락처:</td>
+                                    <td>010-6243-****</td>
+                                </tr>
+                                <tr>
+                                    <td>Email:</td>
+                                    <td>kthhy~@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-footer bg-dark text-white">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- Contact 끝 -->
+
+
+
+        <!-- 기본 START THE FEATURETTES -->
+        <!-- <div>
                     <hr class="featurette-divider">
 
                     <div class="row featurette">
@@ -228,16 +481,18 @@
 
                     <hr class="featurette-divider">
                 </div> -->
-                <!-- /END THE FEATURETTES -->
+        <!-- /END THE FEATURETTES -->
 
-            </div>
+        </div>
 
-            <!-- FOOTER -->
-            <footer class="container">
-                <p class="float-end"><a href="#"><i class="fas fa-arrow-circle-up fa-2x"></i></a></p>
-                <!-- <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
-            </footer>
-        </main>
-    </body>
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-end mt-5"><a href="#"><i class="fas fa-arrow-circle-up fa-2x"></i></a></p>
+            <!-- <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+        </footer>
+    </main>
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
 
 </html>

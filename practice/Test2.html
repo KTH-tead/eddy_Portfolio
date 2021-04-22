@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HTML기본태그</title>
+
+</head>
+<body>
+-CSS 적용방법
+1) HTML 태그에 style 속성에 지정
+<hr style="background-color: red; height: 10px;">
+<hr>
+<hr>
+<p>단락 내용입니다.</p>
+
+2) style 태그 이용: 일반적으로 head 요소내에 명시합니다
+                         body 요소에 명시할 수도 있습니다.
+   HTML 문서하나 전체에 효과있습니다.
+<style>
+   p { font-size: 30px; color: red;  }  
+</style>
+CSS 주석처리: style 태그 내에서 또는 .css파일에서사용
+ /*와 */ 사이에 주석내용을 명시.
+
+3) 별도의 .css 확장자를 가진 파일에 내용을 저장한 후
+    html에서 호출해서 사용
+
+
+<link rel="stylesheet" href="my.css">
+
+- href 속성에 파일이름을 명시한 경우, 해당 파일은<br>
+  &lt;link&gt; 태그가 명시된 HTML 파일과 동일한 폴더에<br>
+  .css파일이 있어야 합니다.<br>
+
+<hr> 
+<hr>
+<hr>
+
+</body>
+</html>
